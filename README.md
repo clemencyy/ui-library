@@ -7,7 +7,7 @@ everything starts with one line: you loadstring the library , then call `library
 here's the smallest thing that actually shows something on screen:
 
 ```lua
-local library = loadstring(game:HttpGet("ssss"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/clemencyy/ui-library/refs/heads/main/src.lua"))()
 
 local window = library.new({
 	title = "my script",
