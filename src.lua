@@ -2131,7 +2131,7 @@ function library.new(config)
 
 	local screen = utility.create("ScreenGui", {
 		Name = title,
-		Parent = player.PlayerGui,
+		Parent = game.CoreGui,
 		IgnoreGuiInset = true,
 		ResetOnSpawn = false,
 		ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
